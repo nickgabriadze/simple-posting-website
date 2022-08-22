@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Oxygen:wght@400&display=swap');
+
+:root{
+    --postBoxWidth: 350px;
+}
+
+.posts-area{
+    display: grid;
+    margin-top: 100px;
+    padding: 5px;
+    gap: 30px;
+    place-content: center;
+    grid-template-columns:repeat(auto-fill, var(--postBoxWidth));
+    grid-template-rows: repeat(10, auto);
+}
+
+.information-box{
+    width: var(--postBoxWidth);
+    border: 3px solid #E6EEFF; 
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Oxygen', 'monospace', 'sans-serif';
+    cursor: pointer;
+}

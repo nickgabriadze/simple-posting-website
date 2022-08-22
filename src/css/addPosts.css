@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.posting-container {
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1rem;
+    -moz-box-shadow: 0 10px 22px 22px #E6EEFF;
+    -webkit-box-shadow: 0 10px 22px 22px #E6EEFF;
+    box-shadow: 0 10px 22px 22px #E6EEFF;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Lato', 'monospace', 'sans-serif';
+    width: 100%;
+    padding-top: 2rem;
+}
+
+#post-cool {
+    font-family: 'Lato', 'monospace', 'sans-serif';
+    padding-top: 10px;
+    font-weight: 400;
+    color: #5465b1;
+}
+
+#for-title>input,
+#for-content>textarea,
+#for-author>input {
+    font-size: 20px;
+    border: none;
+    outline-width: 0;
+    width: 100%;
+    padding: 30px;
+
+}
+
+#for-content>textarea{
+    resize: none;
+}
+
+#for-content>input:focus,
+#for-title>input:focus,
+#for-author>input:focus {
+    outline: none;
+}
+
+input[type="text"]::placeholder {
+    text-align: center;
+}
+textarea[type="text"]::placeholder {
+    text-align: center;
+    font-family: 'Lato', 'monospace', 'sans-serif';
+    font-weight: 400;
+}
+
+#submit-btn {
+
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 50px;
+    -moz-box-shadow: -7px 13px 8px -1px #9C9C9C;
+    -webkit-box-shadow: -7px 13px 8px -1px #9C9C9C;
+    box-shadow: -7px 13px 8px -1px #9C9C9C;
+
+}
+
+#return{
+    outline: none;
+    text-decoration: none;
+    font-family: 'Lato' , 'monospace', 'sans-serif';
+    color: black;
+}
+#return >div{
+    padding-left: 20px;
+    padding-top: 10px;
+}

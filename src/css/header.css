@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Oxygen:wght@400&display=swap');
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 5rem;
+    -moz-box-shadow: 0 10px 22px 5px #E6EEFF;
+    -webkit-box-shadow: 0 10px 22px 5px #E6EEFF;
+    box-shadow: 0 8px 22px 5px #E6EEFF;
+    font-family: 'Carter One', 'monospace', 'sans-serif';
+    background-color: white;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.menu-open {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oxygen', 'monospace', 'sans-serif';
+    gap: 50px;
+}
+
+
+
+#website-name {
+    font-family: 'Carter One', 'monospace', 'sans-serif';
+}
+
+#add-post{
+    text-decoration: none;
+    color: black;
+}
